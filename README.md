@@ -30,8 +30,8 @@
 
 *Before this lesson(s), students should already be able to:*
 
-1. Use control flow.
-2. Create basic functions.
+1. Create basic functions.
+2. Perform simple edits to HTML
 3. Open python files in a text editor
 
 ---
@@ -45,7 +45,7 @@ I. **Introduction to Flask** (20 minutes total)
 - API Recap
 - What is Flask?
 
-II. **Probability Problems using Coding** (60 minutes total)
+II. **Building a Flask App** (60 minutes total)
 
 ---
 
