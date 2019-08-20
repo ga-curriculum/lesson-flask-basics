@@ -10,6 +10,7 @@
 | Lesson | Introduction to Flask Slides | [Link](./slides.pdf)|
 | Lesson | Final App Code | [Link](./solutions/app.py)|
 | Bonus | Model Pickling Workflow | [Link](./assets/pickle_flow.ipynb)|
+| Bonus | Hosting your App Online | Link TBD |
 
 
 > **Dataset description:** Ames.

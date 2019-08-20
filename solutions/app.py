@@ -45,20 +45,14 @@ def make_predictions():
     user_input = request.args
 
     # manipulate data into a format that we pass to our model
-    data = np.array([
-        int(user_input['TV']),
-        int(user_input['radio']),
-        int(user_input['newspaper'])
-    ]).reshape(1, -1)
-
-    # load in pickled model
-    model = pickle.load(open('assets/model.p', 'rb'))
-
-    # make predictions
-    prediction = model.predict(data)[0]
-
-    # return the results template with our prediction value filled in
-    return render_template('results.html', prediction=round(prediction, 2))
+    data = [
+        int(user_input['OverallQual']),
+        int(user_input['FullBath']),
+        int(user_input['GarageArea']),
+        int(user_input['LotArea'])
+    ]
+    
+    return jsonify({'data' : data})
 
 
 if __name__ == '__main__':
